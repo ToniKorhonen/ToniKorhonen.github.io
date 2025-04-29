@@ -60,7 +60,7 @@ async function handleLogin(event) {
         loadDashboard();
 
     } catch (error) {
-        errorMessage.innerText = error.message || 'An error occurred';
+        errorMessage.innerText = "Wrong password or username";
         errorMessage.style.display = 'block'; // Show error message
     }
 }
