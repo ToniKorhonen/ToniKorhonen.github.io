@@ -35,8 +35,7 @@ async function getXPOvertime(id) {
     `
 
     const data = await fetchGraphql(query);
-    console.log(data);
-
+    
     return data.transaction;
 }
 

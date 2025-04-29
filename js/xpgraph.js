@@ -18,7 +18,6 @@ async function getXPperProject(id) {
     }`;
 
     const data = await fetchGraphql(query);
-    console.log(data);
 
     return data.transaction;
 }
